@@ -1,0 +1,66 @@
+
+
+Geethanjali V N
+Chennai, India
++91 9080458947|  geethanjalivn06@gmail.com|  Portfolio|  LinkedIn|  GitHub
+Education
+Velammal Engineering CollegeSeptember 2023 – May 2027
+B.E. Computer Science and Engineering — CGPA: 7.87/10
+Relevant Coursework:  Data Structures & Algorithms, DBMS, Operating Systems, Computer Networks
+Technical Skills
+Languages:  Java, Python, SQL, JavaScript
+Web & Backend:  HTML, CSS, FastAPI, Flask, REST APIs
+Databases:  MySQL, MongoDB, DynamoDB, PostgreSQL, Redis
+Cloud & DevOps:  AWS (Lambda, API Gateway, EC2, S3, IAM), Docker, Git, GitHub, Agile, Scrum
+Core CS: OOP, Operating Systems, Computer Networks, DBMS, System Design
+Competitive programming :   LeetCode| HackerRank|  Skillrack
+Projects
+Research Paper Agent| LangGraph, Gemini, ChromaDB, FastAPI, Sentence TransformersJune 2026
+•
+Architected a multi-step LangGraph agentic pipeline that autonomously retrieves, ranks, and synthesizes 20+ academic
+papers per query from arXiv and Semantic Scholar, cutting manual literature review time by 70%.
+•
+Implemented RAG pipeline with ChromaDB vector store and sentence-transformer embeddings; grounded all model
+responses in cited sources, eliminating hallucinated references.
+•
+Automated literature review generation, methodology comparison, and research-gap identification — producing
+structured outputs (summaries, presentation outlines, insights) in under 60 seconds.
+•
+Built REST API layer using FastAPI to serve agent queries with asynchronous execution, supporting concurrent research
+sessions.
+DocuMind AI| FastAPI, Gemini, OCR, PostgreSQL, AWS S3April 2026
+•
+Developed an AI document intelligence platform processing 5+ document types (invoices, receipts, scanned PDFs) using
+Gemini multimodal LLM + Tesseract OCR, achieving 90%+ structured field extraction accuracy.
+•
+Designed confidence-score-based human-review routing that reduced manual verification workload by  60% by
+auto-approving high-confidence extractions above a configurable threshold.
+•
+Built REST APIs with FastAPI; persisted structured extraction results and raw documents to PostgreSQL and AWS S3,
+enabling full audit trail and re-processing capability.
+•
+Implemented multimodal LLM pipeline converting unstructured PDFs and images to validated JSON records with
+schema enforcement and error recovery.
+URL Shortener| FastAPI, Redis, MySQL, DockerDecember 2025
+•
+Engineered a high-throughput URL shortening service supporting custom aliases and handling 10k+ daily redirects,
+containerized via Docker for portable deployment.
+•
+Achieved  40% reduction in p99 lookup latency by implementing a Redis TTL-based caching layer on top of MySQL,
+eliminating redundant database round-trips on hot URLs.
+•
+Developed RESTful APIs for URL creation, retrieval, expiry management, and analytics tracking with per-URL click
+metrics and geographic data.
+Experience
+TAMIZHAN SKILLSJune 2025 – July 2025
+IoT & Embedded Systems InternRemote
+• Built REST API endpoints to stream live sensor telemetry to a web dashboard, enabling real-time occupancy
+visualization across 20 parking slots.
+• Diagnosed and resolved I2C/UART communication faults between microcontroller and sensor modules,
+improving data-packet success rate from 70% to 98%.
+Achievements & Certifications
+• Won First Prize – Blockathon’24, Velammal Engineering CollegeAug 2024
+• Top 105 out of 10,000+ global submissions — Google On Campus Solution Challenge (Top 1%) May 2025
+• NPTEL Deep Learning (Elite Certification) – IIT RoparApr 2026
+• HackerRank Software Engineer Intern CertificationJun 2026
+• Artificial Intelligence Primer Certification – Infosys SpringboardMay 2026
