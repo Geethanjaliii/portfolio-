@@ -64,3 +64,4 @@ Achievements & Certifications
 • NPTEL Deep Learning (Elite Certification) – IIT RoparApr 2026
 • HackerRank Software Engineer Intern CertificationJun 2026
 • Artificial Intelligence Primer Certification – Infosys SpringboardMay 2026
+Portfolio: https://geethanjali-vn.vercel.app
