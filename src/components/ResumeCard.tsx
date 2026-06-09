@@ -20,10 +20,11 @@ export default function ResumeCard() {
       });
     return () => { mounted = false; };
   }, []);
-
-  const displaySize = meta?.sizeKB ? `${meta.sizeKB} KB` : '—';
-  const displayDate = meta?.lastUpdated ? `Updated ${meta.lastUpdated}` : 'Updated —';
-  const fileName = meta?.fileName ?? 'Resume.pdf';
+  
+  <div>
+  <div className="text-sm font-semibold text-neutral-200">{fileName}</div>
+  <div className="text-xs text-neutral-400">Latest Resume</div>
+</div>
 
   return (
     <div className="mt-4 w-full max-w-md rounded-2xl glass-card border border-white/5 bg-neutral-950/30 p-4">
