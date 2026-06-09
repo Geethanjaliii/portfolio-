@@ -22,8 +22,8 @@ export default function ResumeCard() {
   }, []);
   
   <div>
-  <div className="text-sm font-semibold text-neutral-200">{fileName}</div>
-  <div className="text-xs text-neutral-400">Latest Resume</div>
+    const displaySize = meta?.sizeKB ? `${meta.sizeKB} KB` : '—';
+    const fileName = meta?.fileName ?? 'Resume.pdf';
 </div>
 
   return (
