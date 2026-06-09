@@ -20,12 +20,8 @@ export default function ResumeCard() {
       });
     return () => { mounted = false; };
   }, []);
-  
-  <div>
-    const displaySize = meta?.sizeKB ? `${meta.sizeKB} KB` : '—';
-    const fileName = meta?.fileName ?? 'Resume.pdf';
-</div>
-
+const displaySize = meta?.sizeKB ? `${meta.sizeKB} KB` : '—';
+const fileName = meta?.fileName ?? 'Resume.pdf';
   return (
     <div className="mt-4 w-full max-w-md rounded-2xl glass-card border border-white/5 bg-neutral-950/30 p-4">
       <div className="flex items-center justify-between">
