@@ -30,8 +30,10 @@ export default function ResumeCard() {
     <div className="mt-4 w-full max-w-md rounded-2xl glass-card border border-white/5 bg-neutral-950/30 p-4">
       <div className="flex items-center justify-between">
         <div>
-          <div className="text-sm font-semibold text-neutral-200">{fileName}</div>
-          <div className="text-xs text-neutral-400">{displaySize} · {displayDate}</div>
+          <div>
+         <div className="text-sm font-semibold text-neutral-200">{fileName}</div>
+         <div className="text-xs text-neutral-400">Latest Resume</div>
+</div>
         </div>
 
         <div className="flex gap-2">
